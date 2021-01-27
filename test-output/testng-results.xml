@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="807" started-at="2021-01-27T10:16:19Z" finished-at="2021-01-27T10:16:20Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@617c74e5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="CucumberTest" duration-ms="807" started-at="2021-01-27T10:16:19Z" finished-at="2021-01-27T10:16:20Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@617c74e5]" name="setUpClass" is-config="true" duration-ms="536" started-at="2021-01-27T23:16:19Z" finished-at="2021-01-27T23:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@617c74e5]" name="runScenario" duration-ms="122" started-at="2021-01-27T23:16:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-27T23:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User Login on website]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at pages.LoginPage.clickSignIn(LoginPage.java:39)
+	at stepDefinition.LoginStepDef.i_enter_my_and(LoginStepDef.java:33)
+	at ✽.I enter my "shireenkamra@gmail.com" and "Shireen12"(file:///C:/Automation/cucumberRepo-master/src/test/resources/features/Login.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@617c74e5]" name="runScenario" duration-ms="16" started-at="2021-01-27T23:16:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-27T23:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User Login on website]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at pages.LoginPage.clickSignIn(LoginPage.java:39)
+	at stepDefinition.LoginStepDef.i_enter_my_and(LoginStepDef.java:33)
+	at ✽.I enter my "shireenkamra@gmail.com" and "Shireen12"(file:///C:/Automation/cucumberRepo-master/src/test/resources/features/Login.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@617c74e5]" name="runScenario" duration-ms="16" started-at="2021-01-27T23:16:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-27T23:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User Login on website]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at pages.LoginPage.clickSignIn(LoginPage.java:39)
+	at stepDefinition.LoginStepDef.i_enter_my_and(LoginStepDef.java:33)
+	at ✽.I enter my "arijitlahiri5@gmail.com" and "Arijit12"(file:///C:/Automation/cucumberRepo-master/src/test/resources/features/Login.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@617c74e5]" name="runScenario" duration-ms="0" started-at="2021-01-27T23:16:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-27T23:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register unique customer every time"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Register Customer]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at pages.RegisterPage.clickRegister(RegisterPage.java:45)
+	at stepDefinition.RegistrationStepDef.i_click_register(RegistrationStepDef.java:19)
+	at ✽.I click Register(file:///C:/Automation/cucumberRepo-master/src/test/resources/features/Registration.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@617c74e5]" name="tearDownClass" is-config="true" duration-ms="117" started-at="2021-01-27T23:16:20Z" finished-at="2021-01-27T23:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- CucumberTest -->
+  </suite> <!-- Suite -->
+</testng-results>
