@@ -9,7 +9,7 @@ import utility.BaseTest;
 
 
 @CucumberOptions(
-        features = "C:\\Automation\\cucumberRepo-master\\src\\test\\resources\\features",
+        features = "src/test/resources/features",
         glue="stepDefinition",
         plugin = { "json:target/cucumber-reports/cucumber.json",
                 "pretty", "html:target/html-report/cucumber-html-reports.html",
